@@ -307,3 +307,64 @@ article .txt strong {
 	margin-bottom: 20px;
 	transition: all 1s;
 }
+
+/* 텍스트박스 호버 효과 */
+
+article:hover .txt {
+	background:#6ce2fb;
+	color: #FFFFFF;
+}
+
+article:hover .txt i {
+	right: 0px;
+	opacity: 0.5;
+}
+
+article:hover .txt strong {
+	color: #FFF;
+}
+
+@media screen and (min-width:1280px) and (max-width:1559px) {
+ /* 이 코드는 화면 너비가 1280픽셀에서 1599픽셀 사이일 때 적용됨. */
+ 
+	/* 레이아웃 */
+	header {
+		position: relative;
+		width: 100%;
+		height: 80%;
+	}
+
+	nav {
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	section {
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	/* header 콘텐츠 */
+	header h1 {
+		width: 200px;
+		height: 40px;
+		background-image: url(../img/logo2.png);
+		top: 20px;
+		left: 20px;
+		margin-left: 0px;
+	}
+
+	#gnb {
+		top: 20px;
+		right: 200px;
+	}
+
+	#gnb li {
+		float: left;
+	}
+
+	.snsSet {
+		bottom: 20px;
+		right: 80px;
+	}	
+}
